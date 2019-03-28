@@ -1,0 +1,4 @@
+[13:05:36]INFO : com.javachen.service.UserService - getSteveJobs() executed in 23ms
+[13:05:39]INFO : com.javachen.service.UserService - getSteveJobs() executed in 0ms
+[13:05:40]INFO : com.javachen.service.UserService - getSteveJobs() executed in 0ms
+[13:10:10]INFO : com.javachen.service.UserService - getSteveJobs() executed in 0ms
