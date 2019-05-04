@@ -1,6 +1,0 @@
-target/
-.idea/
-*.iml
-solr/libs
-solr/core/core.properties
-solr/core/data

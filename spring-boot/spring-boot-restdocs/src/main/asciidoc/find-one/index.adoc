@@ -1,5 +1,0 @@
-[[users_find_one]]
-=== Find one user
-
-include::success.adoc[]
-include::not-found.adoc[]
