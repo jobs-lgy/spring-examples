@@ -1,15 +1,14 @@
 package com.neo.test.mapper;
 
-import java.util.List;
-
+import com.neo.entity.UserEntity;
+import com.neo.mapper.UserMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.neo.entity.UserEntity;
-import com.neo.mapper.UserMapper;
+import java.util.List;
 
 @ContextConfiguration(locations = { "classpath:/test*.xml" })
 @RunWith(SpringJUnit4ClassRunner.class)

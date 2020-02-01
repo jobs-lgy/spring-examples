@@ -1,10 +1,9 @@
 package com.neo.dao.impl;
 
-import org.springframework.stereotype.Service;
-
 import com.neo.dao.BaseDao;
 import com.neo.dao.UserInformationsDao;
 import com.neo.entity.UserInformationsEntity;
+import org.springframework.stereotype.Service;
 
 @Service ("userInformationsDao")
 public class UserInformationsDaoImpl extends BaseDao implements UserInformationsDao{

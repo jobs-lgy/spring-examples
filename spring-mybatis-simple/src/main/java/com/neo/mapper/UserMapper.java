@@ -1,8 +1,8 @@
 package com.neo.mapper;
 
-import java.util.List;
-
 import com.neo.entity.UserEntity;
+
+import java.util.List;
 
 public interface UserMapper {
 	

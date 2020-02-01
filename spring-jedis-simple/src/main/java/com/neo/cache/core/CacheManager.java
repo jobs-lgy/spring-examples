@@ -1,14 +1,12 @@
 package com.neo.cache.core;
 
-import java.util.List;
-import java.util.Map;
-
-import javax.annotation.Resource;
-
+import com.neo.cache.service.RedisCacheService;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
-import com.neo.cache.service.RedisCacheService;
+import javax.annotation.Resource;
+import java.util.List;
+import java.util.Map;
 
 /**
  * 缓存管理类，初始化缓存对象

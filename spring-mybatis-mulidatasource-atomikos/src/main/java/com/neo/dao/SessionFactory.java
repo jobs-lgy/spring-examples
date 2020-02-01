@@ -1,9 +1,9 @@
 package com.neo.dao;
 
-import javax.annotation.Resource;
-
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
+
+import javax.annotation.Resource;
 
 public class SessionFactory {
     

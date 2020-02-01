@@ -1,14 +1,10 @@
 package com.neo.fastdfs;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.OutputStream;
-
 import org.csource.fastdfs.FileInfo;
 import org.csource.fastdfs.ServerInfo;
 import org.csource.fastdfs.StorageServer;
+
+import java.io.*;
 
 
 public class TestFileManager {

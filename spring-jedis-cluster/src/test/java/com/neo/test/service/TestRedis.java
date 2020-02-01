@@ -1,16 +1,14 @@
 package com.neo.test.service;
 
-import javax.annotation.Resource;
-
+import com.neo.entity.UserEntity;
+import com.neo.redis.CacheManager;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-
 import redis.clients.jedis.JedisCluster;
 
-import com.neo.entity.UserEntity;
-import com.neo.redis.CacheManager;
+import javax.annotation.Resource;
 
 @ContextConfiguration(locations = { "classpath:/test*.xml" })
 @RunWith(SpringJUnit4ClassRunner.class)

@@ -1,15 +1,14 @@
 package com.neo.service.impl;
 
-import javax.annotation.Resource;
-
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
 import com.neo.dao.UserDao;
 import com.neo.dao.UserInformationsDao;
 import com.neo.entity.UserEntity;
 import com.neo.entity.UserInformationsEntity;
 import com.neo.service.UserService;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import javax.annotation.Resource;
 
 @Service
 public class UserServiceImpl implements UserService {

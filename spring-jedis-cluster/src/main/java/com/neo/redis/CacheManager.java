@@ -1,12 +1,11 @@
 package com.neo.redis;
 
-import java.util.List;
-import java.util.Map;
-
-import javax.annotation.Resource;
-
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
+import java.util.List;
+import java.util.Map;
 
 @Service("cacheManager")
 public final class CacheManager {

@@ -1,13 +1,12 @@
 package com.neo.cache.service.jedis;
 
-import javax.annotation.Resource;
-
+import com.neo.cache.core.CacheManager;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.neo.cache.core.CacheManager;
+import javax.annotation.Resource;
 @RunWith(SpringJUnit4ClassRunner.class) // 整合 
 @ContextConfiguration(locations="classpath:spring/spring-cache.xml") // 加载配置
 public class JedisCacheManagerTest {

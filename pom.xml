@@ -26,7 +26,7 @@
         <module>spring-velocity-javamail</module>
         <module>spring-wsdl-client</module>
         <module>springmvc-resteasy</module>
-        <module>spring4-mybatis3-simple</module>
+        <module>spring-mybatis-simple</module>
         <module>spring-mybatis-mulidatasource</module>
         <module>spring-mybatis-mulidatasource-atomikos</module>
         <module>spring-fastdsf</module>

@@ -1,15 +1,14 @@
 package com.neo.redis;
 
-import java.text.ParseException;
-import java.util.HashSet;
-import java.util.Set;
-
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 import org.springframework.beans.factory.FactoryBean;
 import org.springframework.beans.factory.InitializingBean;
-
 import redis.clients.jedis.HostAndPort;
 import redis.clients.jedis.JedisCluster;
+
+import java.text.ParseException;
+import java.util.HashSet;
+import java.util.Set;
 
 public class JedisClusterFactory implements FactoryBean<JedisCluster>, InitializingBean {
 

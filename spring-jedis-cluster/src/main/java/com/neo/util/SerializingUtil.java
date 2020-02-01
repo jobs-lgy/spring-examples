@@ -1,13 +1,9 @@
 package com.neo.util;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-
 import org.apache.log4j.Logger;
 import org.springframework.cache.CacheManager;
+
+import java.io.*;
 
 /**
  * 功能简述: 序列化工具类，负责byte[]和Object之间的相互转换.
